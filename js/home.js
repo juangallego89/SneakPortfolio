@@ -34,8 +34,7 @@ home = {
    var image = "";
 
    imagesArray.forEach(x => {
-    image += '<img src="' + x.urls.small + '">';
-    console.log(x.urls.small);
+    image += '<img src="' + x.urls.small + '" alt='+  x.alt_description + '>';
   });
 
    document.getElementById("grid").innerHTML += image;

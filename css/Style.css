@@ -19,7 +19,7 @@
 	color: white;
 	margin: 30px;
 }
-button{
+.btn-default{
 	font-family: 'Questrial';
 	color: rgb(252,117,140);
 	background-color: white;
@@ -27,6 +27,10 @@ button{
 	outline: none;
 	padding: 10px 30px 10px 30px;
 	font-weight: bold;
+}
+.btn-default:hover{
+	background-color: #f5f4f4;
+	color: rgb(255,52,86);
 }
 .btn-more{
 	font-family: 'Questrial';
@@ -49,9 +53,12 @@ button{
 .btn-grid:hover{
 	color: rgb(255,52,86);
 }
+nav{
+	padding: 20px;
+}
 nav ul{
-	margin: 0;
-	padding: 30px;
+	width: 90%;
+	padding: 20px;
 	list-style: none;
 	overflow: hidden;
 	background-color: #fff;
@@ -60,13 +67,15 @@ nav ul{
 nav ul li{
 	text-decoration: none;
 	display:inline;
-	padding: 10px 30px 10px 30px;
-	margin: 20px;
+	padding: 10px 20px 10px 20px;
 	font-family: 'Questrial';
 }
 nav ul li a{
 	text-decoration: none;
 	color: #838383;
+}
+nav ul li a:hover{
+	color: rgb(255,52,86);
 }
 
 footer{
@@ -126,4 +135,15 @@ footer .copyright{
 }
 .text-pink{
 	color: rgb(252,117,140);
+}
+
+@media (max-width: 768px) {
+
+	#portfolio .center-menu nav ul{
+		display: none;
+	}
+
+	.navbar ul{
+		display: none;
+	}
 }
