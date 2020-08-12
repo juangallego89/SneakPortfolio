@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sneak</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Questrial&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/Style.css">
+	<link rel="icon" href="img/logo.png">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="active"><a href="#">All</a></li>
+			<li><a href="#">Branding</a></li>
+			<li><a href="#">Web</a></li>
+			<li><a href="#">Photography</a></li>
+			<li><a href="#">App</a></li>
+			<li><a class="text-pink"><i class="fas fa-search"></i></a></li>
+		</ul>
+	</nav>
+	<section id="landing">
+		<div class="container">
+			<div class="center">
+				<h1>EXPLORE BEYOND HORIZON</h1>
+				<p>Magna mundi referrentur quo, no rebum dignissim qui.<br>per quodsi accusata id, agam labores.</p>
+				<div>
+					<button>VIEW OUR WORK</button>
+				</div>				
+			</div>
+		</div>
+	</section>
+	<section id="portfolio">
+		<div class="menu-grid">
+			<a class="btn-grid" href=""><i class="fas fa-th-large"></i></a>
+			<a class="btn-grid" href=""><i class="fas fa-grip-lines"></i></a>
+		</div>
+		<div class="center-menu">
+			<nav>
+				<ul>
+					<li class="active"><a href="#">All</a></li>
+					<li><a href="#">Branding</a></li>
+					<li><a href="#">Web</a></li>
+					<li><a href="#">Photography</a></li>
+					<li><a href="#">App</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="grid"></div>
+		<div>
+			<button class="btn-more" value="1" onclick="home.getImages()" id="btnShowMore">Show Me More</button>
+		</div>		
+	</section>
+	<footer>
+		<p class="copyright">&copy; 2016 - <label class="brand">Sneak</label> All Right Reserved</p>
+		<div class="social-icons">			
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>			
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/home.js"></script>
+	<script src="https://kit.fontawesome.com/117a5e8bb9.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		home.init();
+	</script>
+</body>
+</html>
